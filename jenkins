@@ -1,0 +1,18 @@
+########### Jenkins  ############
+
+#### project git links ###
+
+=> git clone https://github.com/kodekloudhub/go-webapp-sample.git
+
+=> go run main.go &
+
+
+
+UserName: admin
+Password: Adm!n321
+
+UserName: mike
+Password: M!k3@123
+
+
+java -jar jenkins-cli.jar -s http://localhost:8085 -auth 'admin:Adm!n321' <command>
